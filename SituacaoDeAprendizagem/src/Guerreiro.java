@@ -7,7 +7,7 @@ public class Guerreiro extends Personagem {
     }
 
     public void receberDano(int defesa){
-        IO.println("seu guerreiro foi atacado!");
+        IO.println(getNome() + " foi atacado!");
         defesa = defesa * 2;
     }
 }

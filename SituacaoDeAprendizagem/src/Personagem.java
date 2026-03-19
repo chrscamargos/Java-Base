@@ -52,10 +52,10 @@ abstract class  Personagem {
     }
     public void receberDano(int dano){
         vida = vida - dano;
-        IO.println("sua vida atual é: " + vida);
+        IO.println("Sua vida atual é: " + vida);
     }
     public void mostrarStatus(){
-        IO.println("Sua vida atual é: " + vida + ", sua defesa é: " + defesa + " e seu ataque é " + ataque);
+        IO.println("Vida: " + vida + "| Defesa: " + defesa + "| Ataque: " + ataque);
     }
 
 

@@ -3,6 +3,11 @@ static void main(){
     Personagem guerreiro = new Guerreiro();
     Personagem mago = new Mago();
 
+    mago.setNome("Gandalf");
+    arqueiro.setNome("Robin Hood");
+    guerreiro.setNome("Spartacus");
+
+
     mago.mostrarStatus();
 
     arqueiro.receberDano(mago.atacar());

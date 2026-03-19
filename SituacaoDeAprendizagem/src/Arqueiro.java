@@ -16,7 +16,7 @@ public class Arqueiro extends Personagem {
 
     public void receberDano(int defesa) {
 
-        IO.println("seu arqueiro foi atacado!");
+        IO.println(getNome() + " foi atacado!");
         super.receberDano(defesa);
     }
 }

@@ -15,7 +15,7 @@ public class Mago extends Personagem{
     }
 
     public void receberDano(int defesa){
-        IO.println("seu mago foi atacado!");
+        IO.println(getNome() + " foi atacado!");
         defesa = defesa / 2;
     }
 
