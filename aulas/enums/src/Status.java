@@ -1,0 +1,9 @@
+public enum Status {
+    AGUARDANDO_PAGAMENTO,
+    PAGO,
+    CANCELADO,
+    REEMBOLSADO,
+    PENDENTE,
+    FINALIZADO,
+    ENTREGUE
+}
